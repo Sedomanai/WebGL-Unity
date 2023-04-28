@@ -1,0 +1,2049 @@
+fileFormatVersion: 2
+guid: d730c5abc382d2343bf2f4c226d5e682
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LD48_EverythingElse_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 244
+        width: 12
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68365dc4b14e73ee0800000000000000
+      internalID: -1281304763059313786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 244
+        width: 12
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c95747da05300c0800000000000000
+      internalID: -4610752887583826927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 243
+        width: 13
+        height: 10
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d085e9a49c55d70800000000000000
+      internalID: 9031345950082731372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 241
+        width: 14
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cbcced93ad2eba0800000000000000
+      internalID: -6061042206401315748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 246
+        width: 13
+        height: 7
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3c26cae237414d0800000000000000
+      internalID: -3164777993836772355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 244
+        width: 14
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e98c535322e85290800000000000000
+      internalID: -7901316904871228954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 244
+        width: 13
+        height: 7
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ba12264be168760800000000000000
+      internalID: 7459683592875125530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 245
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d94bec9332456160800000000000000
+      internalID: 7018088383770216913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 243
+        width: 10
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51d53300788e13a0800000000000000
+      internalID: -6692761981554405025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_18
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 242
+        width: 12
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfa663a9e62fba50800000000000000
+      internalID: 6538987968875900849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_19
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 244
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581556b931c4c75a0800000000000000
+      internalID: -6522254513244122747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_21
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 244
+        width: 9
+        height: 8
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c9c5657272f5df0800000000000000
+      internalID: -189389609420153763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 227
+        width: 12
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.11111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80574b6a7c1b4e010800000000000000
+      internalID: 1217293270350329096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_26
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 227
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.11111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997c976f2f2c9b8c0800000000000000
+      internalID: -3982938046659442791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_27
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 232
+        width: 12
+        height: 9
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7861a6dfa5de6980800000000000000
+      internalID: -8543656491878356869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_30
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 231
+        width: 12
+        height: 8
+      alignment: 9
+      pivot: {x: 0.75, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a50a432ebeba1fe0800000000000000
+      internalID: -1217451025405180510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_36
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 242
+        width: 9
+        height: 11
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.54545456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49df93442fefd38b0800000000000000
+      internalID: -5170696480671269484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_37
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 227
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.11111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aac9e45a35a3ef20800000000000000
+      internalID: 3450783409447226024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_38
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 227
+        width: 12
+        height: 9
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.11111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1135b60f476c14ec0800000000000000
+      internalID: -3584365622858132719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_39
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 230
+        width: 12
+        height: 7
+      alignment: 9
+      pivot: {x: 0.8333333, y: -0.2857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e633e3c719b47a0c0800000000000000
+      internalID: -4564596609089916050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 212
+        width: 12
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffca327403d024a0800000000000000
+      internalID: -6620059436184842245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_41
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 211
+        width: 12
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90b1885fb074d5a0800000000000000
+      internalID: -6497444395262824291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_42
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 211
+        width: 12
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3becb120ddfd09060800000000000000
+      internalID: 6958307564603559603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_43
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 210
+        width: 14
+        height: 11
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee876a14a9b6a1c0800000000000000
+      internalID: -4492699463786721566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_44
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 210
+        width: 13
+        height: 11
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1a937523fdf87b0800000000000000
+      internalID: -5219708035794361932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_45
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 216
+        width: 7
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526a7d7b39147d640800000000000000
+      internalID: 5104620805348107813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 216
+        width: 6
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f432d4b2b0fe9d2d0800000000000000
+      internalID: -3253306424548318385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_47
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 216
+        width: 3
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4640c20d650e17f50800000000000000
+      internalID: 6877524769435812964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_48
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 220
+        width: 3
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24e80f8dc0f85e80800000000000000
+      internalID: -8189531156714560465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_51
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 218
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb57f13783813ad50800000000000000
+      internalID: 6747263297459811772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_54
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 218
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef20ed13512512b0800000000000000
+      internalID: -5614544719580221458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_55
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 195
+        width: 14
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5c6b524c2bceef0800000000000000
+      internalID: -77490538056071771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_56
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 194
+        width: 16
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2b4af13274e0940800000000000000
+      internalID: 5264223230623003336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_57
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 194
+        width: 11
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b49916984a6effb0800000000000000
+      internalID: -4612132108392360780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_58
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 194
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a628a6b871e05a970800000000000000
+      internalID: 8765427744032588394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_61
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 201
+        width: 12
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ddd717f8a1470f10800000000000000
+      internalID: 2235827933968588249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_62
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 185
+        width: 8
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db0d72777e020b30800000000000000
+      internalID: 4251976904375864279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_63
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 195
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28cc26723ec7fe640800000000000000
+      internalID: 5111441417149009026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_64
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 195
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6422c6aa152afa510800000000000000
+      internalID: 1562646067356115526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_66
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 185
+        width: 9
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b083c9235f1ff3dd0800000000000000
+      internalID: -2504016832376326133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_70
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 201
+        width: 13
+        height: 3
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf7487ccf64be960800000000000000
+      internalID: 7632272045002489819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_71
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 199
+        width: 8
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7339194a3d62aff0800000000000000
+      internalID: -26338550708882566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_72
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 171
+        width: 35
+        height: 11
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7adc1c4b4adf790800000000000000
+      internalID: -7494653108622088216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_73
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 185
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995301a2bd8348d30800000000000000
+      internalID: 4432730447194109337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_74
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 185
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d295b50b3a3dbb30800000000000000
+      internalID: 4304660844009329362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_75
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 185
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675094a0d3b07a860800000000000000
+      internalID: 7541008457848653174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_76
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 186
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfbac2b94828b0e0800000000000000
+      internalID: -2254007316501577771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_78
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 185
+        width: 9
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695769227d53197c0800000000000000
+      internalID: -4066409790424320618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_80
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 189
+        width: 9
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a42063646d8bc050800000000000000
+      internalID: 5821902405609989286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_81
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 185
+        width: 6
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994510cced5db9060800000000000000
+      internalID: 6961392801913328793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_82
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 185
+        width: 6
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8588b0741ee9880800000000000000
+      internalID: -8602190542978656043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_83
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 185
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947ade07c9b4b0d30800000000000000
+      internalID: 4398692596339025737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_84
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 164
+        width: 18
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1689635e7aee3300800000000000000
+      internalID: 233882058956047899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_85
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 168
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fd367fc97f7baa0800000000000000
+      internalID: -6145170912986276002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_86
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 168
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d597a9bb4b94d4f0800000000000000
+      internalID: -804847683852855850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_87
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 168
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c220beff6f399d0800000000000000
+      internalID: -2768597766882841506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_88
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 167
+        width: 28
+        height: 12
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.41666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a166600b9e5c9cd0800000000000000
+      internalID: -2550059269178891869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_89
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 152
+        width: 18
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba575da4c41a1370800000000000000
+      internalID: 8293964498710518460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_90
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 158
+        width: 18
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2685c2836624380800000000000000
+      internalID: -8988509514829897049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_91
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 144
+        width: 14
+        height: 12
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f385481a4f8da60800000000000000
+      internalID: 7699172537537150843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_92
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 144
+        width: 14
+        height: 14
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fde5287f08bd190800000000000000
+      internalID: -7936608117777834172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_93
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 144
+        width: 14
+        height: 15
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ba65840db42cd50800000000000000
+      internalID: 6756045748948085626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_94
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 153
+        width: 28
+        height: 12
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1defb24d43a8b8770800000000000000
+      internalID: 8614130671778791121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_95
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 144
+        width: 14
+        height: 11
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5208b727c73ad840800000000000000
+      internalID: 5249569644158124636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_96
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 130
+        width: 46
+        height: 12
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338ddd35b12d36910800000000000000
+      internalID: 1829536888455551027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 12
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0394fb7f8b57a1920800000000000000
+      internalID: 2961809142240463152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_99
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 144
+        width: 11
+        height: 2
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72aa4ee0e65a96ae0800000000000000
+      internalID: -1555530304164943321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_100
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 138
+        width: 28
+        height: 12
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f7d87b24e402910800000000000000
+      internalID: 1810533098657251130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_101
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 117
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf409824ac7cce50800000000000000
+      internalID: 6830971779311226807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_102
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 123
+        width: 28
+        height: 12
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7dbaf73ae20d460800000000000000
+      internalID: 7264357478705125339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_103
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 95
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2f476770503c620800000000000000
+      internalID: 2793081723510125244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_106
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 79
+        width: 14
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eac811f76fd499f0800000000000000
+      internalID: -462499224192759063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_108
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 77
+        width: 18
+        height: 19
+      alignment: 9
+      pivot: {x: -0.2777778, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0540b9a96be9a5560800000000000000
+      internalID: 7303324252849767504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_109
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 80
+        width: 25
+        height: 17
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cb191cde428b0d0800000000000000
+      internalID: -3406932514532377536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_110
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 83
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4a03c7b55806fa0800000000000000
+      internalID: -5809496891335859035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_111
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 82
+        width: 12
+        height: 13
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0a9da9512484f80800000000000000
+      internalID: -8122169267402989397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 30
+        height: 25
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099844e65d13830e0800000000000000
+      internalID: -2290025617770116720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_114
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 80
+        width: 24
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8ad5260f0f826d0800000000000000
+      internalID: -3014895035291424583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_115
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 56
+        width: 20
+        height: 19
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdcbb083c414ee0f0800000000000000
+      internalID: -1085858664536097569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_116
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 60
+        width: 19
+        height: 17
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f12dc42c1cf4e8a0800000000000000
+      internalID: -6276614782840921611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_117
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 55
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a82463fa719e1d40800000000000000
+      internalID: 5557038947477235873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_118
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 55
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30be86c370a5e930800000000000000
+      internalID: 4171917048941555772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_119
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 49
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67320616b698bc370800000000000000
+      internalID: 8343913828922172278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_124
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 33
+        width: 21
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2201e269fdd5f40800000000000000
+      internalID: 5718972937941295866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_125
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 37
+        width: 21
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c547ccdab665af50800000000000000
+      internalID: 6892027757514409415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_129
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 5
+        width: 41
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5121951, y: 0.27272728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a35faece7f104a0800000000000000
+      internalID: -6628744579586377196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD48_EverythingElse_136
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 2
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5217391, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9f9ba3863273d60800000000000000
+      internalID: 7869797804422068676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LD48_EverythingElse_106: -462499224192759063
+      LD48_EverythingElse_91: 7699172537537150843
+      LD48_EverythingElse_85: -6145170912986276002
+      LD48_EverythingElse_63: 5111441417149009026
+      LD48_EverythingElse_97: 2961809142240463152
+      LD48_EverythingElse_39: -4564596609089916050
+      LD48_EverythingElse_110: -5809496891335859035
+      LD48_EverythingElse_115: -1085858664536097569
+      LD48_EverythingElse_21: -189389609420153763
+      LD48_EverythingElse_42: 6958307564603559603
+      LD48_EverythingElse_75: 7541008457848653174
+      LD48_EverythingElse_1: -4610752887583826927
+      LD48_EverythingElse_119: 8343913828922172278
+      LD48_EverythingElse_5: -7901316904871228954
+      LD48_EverythingElse_95: 5249569644158124636
+      LD48_EverythingElse_81: 6961392801913328793
+      LD48_EverythingElse_25: 1217293270350329096
+      LD48_EverythingElse_70: 7632272045002489819
+      LD48_EverythingElse_71: -26338550708882566
+      LD48_EverythingElse_92: -7936608117777834172
+      LD48_EverythingElse_83: 4398692596339025737
+      LD48_EverythingElse_80: 5821902405609989286
+      LD48_EverythingElse_108: 7303324252849767504
+      LD48_EverythingElse_48: -8189531156714560465
+      LD48_EverythingElse_61: 2235827933968588249
+      LD48_EverythingElse_66: -2504016832376326133
+      LD48_EverythingElse_124: 5718972937941295866
+      LD48_EverythingElse_2: 9031345950082731372
+      LD48_EverythingElse_44: -5219708035794361932
+      LD48_EverythingElse_101: 6830971779311226807
+      LD48_EverythingElse_26: -3982938046659442791
+      LD48_EverythingElse_43: -4492699463786721566
+      LD48_EverythingElse_116: -6276614782840921611
+      LD48_EverythingElse_114: -3014895035291424583
+      LD48_EverythingElse_82: -8602190542978656043
+      LD48_EverythingElse_40: -6620059436184842245
+      LD48_EverythingElse_36: -5170696480671269484
+      LD48_EverythingElse_89: 8293964498710518460
+      LD48_EverythingElse_73: 4432730447194109337
+      LD48_EverythingElse_18: 6538987968875900849
+      LD48_EverythingElse_86: -804847683852855850
+      LD48_EverythingElse_99: -1555530304164943321
+      LD48_EverythingElse_4: -3164777993836772355
+      LD48_EverythingElse_112: -2290025617770116720
+      LD48_EverythingElse_103: 2793081723510125244
+      LD48_EverythingElse_117: 5557038947477235873
+      LD48_EverythingElse_46: -3253306424548318385
+      LD48_EverythingElse_87: -2768597766882841506
+      LD48_EverythingElse_100: 1810533098657251130
+      LD48_EverythingElse_72: -7494653108622088216
+      LD48_EverythingElse_74: 4304660844009329362
+      LD48_EverythingElse_109: -3406932514532377536
+      LD48_EverythingElse_125: 6892027757514409415
+      LD48_EverythingElse_129: -6628744579586377196
+      LD48_EverythingElse_7: 7018088383770216913
+      LD48_EverythingElse_84: 233882058956047899
+      LD48_EverythingElse_9: -6692761981554405025
+      LD48_EverythingElse_56: 5264223230623003336
+      LD48_EverythingElse_57: -4612132108392360780
+      LD48_EverythingElse_45: 5104620805348107813
+      LD48_EverythingElse_96: 1829536888455551027
+      LD48_EverythingElse_54: -5614544719580221458
+      LD48_EverythingElse_19: -6522254513244122747
+      LD48_EverythingElse_58: 8765427744032588394
+      LD48_EverythingElse_76: -2254007316501577771
+      LD48_EverythingElse_94: 8614130671778791121
+      LD48_EverythingElse_111: -8122169267402989397
+      LD48_EverythingElse_37: 3450783409447226024
+      LD48_EverythingElse_55: -77490538056071771
+      LD48_EverythingElse_62: 4251976904375864279
+      LD48_EverythingElse_64: 1562646067356115526
+      LD48_EverythingElse_3: -6061042206401315748
+      LD48_EverythingElse_47: 6877524769435812964
+      LD48_EverythingElse_136: 7869797804422068676
+      LD48_EverythingElse_27: -8543656491878356869
+      LD48_EverythingElse_102: 7264357478705125339
+      LD48_EverythingElse_118: 4171917048941555772
+      LD48_EverythingElse_30: -1217451025405180510
+      LD48_EverythingElse_88: -2550059269178891869
+      LD48_EverythingElse_6: 7459683592875125530
+      LD48_EverythingElse_41: -6497444395262824291
+      LD48_EverythingElse_51: 6747263297459811772
+      LD48_EverythingElse_90: -8988509514829897049
+      LD48_EverythingElse_93: 6756045748948085626
+      LD48_EverythingElse_78: -4066409790424320618
+      LD48_EverythingElse_38: -3584365622858132719
+      LD48_EverythingElse_0: -1281304763059313786
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

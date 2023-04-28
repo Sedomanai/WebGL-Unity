@@ -1,0 +1,6 @@
+[submodule "Assets/_Common"]
+	path = Assets/_Common
+	url = https://github.com/Sedomanai/Common-Elunity
+[submodule "Assets/2D"]
+	path = Assets/2D
+	url = https://github.com/Sedomanai/Common-2D-Elunity.git
