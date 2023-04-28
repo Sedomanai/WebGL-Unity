@@ -7,13 +7,13 @@ using UnityEngine.Networking;
 
 namespace Elang
 {
-    public class Networking : MonoBehaviour
-    {
-        public const string Host =
+   public class Networking : MonoBehaviour
+   {
+      public const string Host =
 #if UNITY_EDITOR
     "http://localhost:3001";
 #else
-    "https://twowolf-ld53.herokuapp.com"; // change this to your domain.
+    ExpressRoutes.EL_WWW_HOST_NAME;
 #endif
     }
 
