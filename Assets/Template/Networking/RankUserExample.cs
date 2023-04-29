@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 namespace Elang
 {
-   public class RankUser : MonoBehaviour, ILeaderBoardRequester
+   public class RankUserExample : MonoBehaviour, ILeaderBoardRequester
     {
       [SerializeField]
       Text nametext, score, time;
