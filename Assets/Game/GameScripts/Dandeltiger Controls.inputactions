@@ -1,0 +1,240 @@
+{
+    "name": "Dandeltiger Controls",
+    "maps": [
+        {
+            "name": "Menu",
+            "id": "093f5173-1fbc-4d3d-9985-28c7f90ae510",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "a1d471dd-9c89-4784-b548-077c52ec211a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "aeedc166-b5ae-49ab-ad07-d4b3f0ede889",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Startup",
+            "id": "29b50c31-3c80-4d29-9740-b4d87fd544ce",
+            "actions": [
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "38032e99-9420-45b7-a64c-b6e069d691a6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "68e51465-8b07-4236-916f-b926276f3153",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Playing",
+            "id": "18284287-2039-4cb6-90bb-83ce475a1ee6",
+            "actions": [
+                {
+                    "name": "Boost",
+                    "type": "Button",
+                    "id": "a4d771a1-d56e-40b3-bcd9-c9ddeb4ce223",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Horizontal",
+                    "type": "Value",
+                    "id": "f3351c4a-75ea-40f8-a571-581d1a56625d",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Windward",
+                    "type": "Value",
+                    "id": "bb64f598-0c23-4821-9eeb-8f55cdc799b9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "907adad6-8878-4a69-92df-39d784a56e5a",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Boost",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "7702905c-8d21-44f2-b8f2-6f88a7d901c0",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Horizontal",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "912bf383-da56-457e-88c2-43863f42b8cc",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Horizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "7f93c32f-2872-47bd-bac9-b13299455589",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Horizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "78d8cc27-c079-43a3-9074-5e6cede1c7ff",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Windward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Debug",
+            "id": "d87c9a04-dae0-4c0e-be6b-16091bd31f84",
+            "actions": [
+                {
+                    "name": "Add Sunshine",
+                    "type": "Button",
+                    "id": "c624a0a3-cb66-4c60-ae94-0cc0e8632f5d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Sunshine Spawn Rate",
+                    "type": "Button",
+                    "id": "d9e0939d-a64a-4f08-abaa-dc5cb1c02893",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Sunshine Count",
+                    "type": "Button",
+                    "id": "b3243ae9-1fe8-442e-a77b-dcd14a05c2b8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "New action1",
+                    "type": "Button",
+                    "id": "82d30843-9c4a-46c9-a1cc-478af04b45e8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f16a85eb-36b7-4814-a1e5-3d2f0c06bb1f",
+                    "path": "<Keyboard>/backquote",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Add Sunshine",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0080ed38-424b-482f-b0b0-ced3c8f2b703",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sunshine Spawn Rate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c2e2be67-60a8-4ded-9088-1035165399f3",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sunshine Count",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "65b83f9c-fcc3-47af-9264-c4d495a716b8",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
