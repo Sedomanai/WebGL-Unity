@@ -12,7 +12,6 @@ namespace Elang
 			float yOffset;
 
 			Camera _cam;
-			PixelPerfectCamera _pcam;
 
 			void Awake() {
 				_cam = GetComponent<Camera>();

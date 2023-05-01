@@ -1,0 +1,350 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b90f168543e764e93f56c9249b861e, type: 3}
+  m_Name: all.atls
+  m_EditorClassIdentifier: 
+  textures:
+  - {fileID: 2800000, guid: f11e13191b2fa5a44b1de2a16bb4d231, type: 3}
+  makeClipAnimations: 1
+  makeController: 1
+  cells:
+  - name: all_0
+    x: 2
+    y: 2
+    w: 14
+    h: 5
+    oX: 7
+    oY: 2
+  - name: all_1
+    x: 17
+    y: 2
+    w: 14
+    h: 5
+    oX: 7
+    oY: 2
+  - name: all_2
+    x: 34
+    y: 2
+    w: 37
+    h: 11
+    oX: 18
+    oY: 5
+  - name: all_3
+    x: 123
+    y: 2
+    w: 23
+    h: 25
+    oX: 11
+    oY: 13
+  - name: all_4
+    x: 155
+    y: 3
+    w: 23
+    h: 24
+    oX: 11
+    oY: 12
+  - name: all_5
+    x: 187
+    y: 4
+    w: 23
+    h: 23
+    oX: 11
+    oY: 11
+  - name: all_6
+    x: 219
+    y: 4
+    w: 23
+    h: 23
+    oX: 11
+    oY: 11
+  - name: all_7
+    x: 2
+    y: 14
+    w: 14
+    h: 5
+    oX: 7
+    oY: 2
+  - name: all_8
+    x: 2
+    y: 8
+    w: 14
+    h: 5
+    oX: 7
+    oY: 2
+  - name: all_9
+    x: 17
+    y: 20
+    w: 14
+    h: 5
+    oX: 7
+    oY: 2
+  - name: all_10
+    x: 17
+    y: 14
+    w: 14
+    h: 5
+    oX: 7
+    oY: 2
+  - name: all_11
+    x: 17
+    y: 8
+    w: 14
+    h: 5
+    oX: 7
+    oY: 2
+  - name: all_12
+    x: 73
+    y: 2
+    w: 37
+    h: 11
+    oX: 19
+    oY: 5
+  - name: all_13
+    x: 251
+    y: 4
+    w: 23
+    h: 23
+    oX: 11
+    oY: 11
+  - name: all_14
+    x: 2
+    y: 20
+    w: 14
+    h: 5
+    oX: 7
+    oY: 2
+  - name: all_15
+    x: 37
+    y: 17
+    w: 39
+    h: 13
+    oX: 19
+    oY: 7
+  - name: all_16
+    x: 4
+    y: 33
+    w: 7
+    h: 13
+    oX: 4
+    oY: 11
+  - name: all_17
+    x: 20
+    y: 34
+    w: 7
+    h: 13
+    oX: 4
+    oY: 11
+  - name: all_18
+    x: 36
+    y: 35
+    w: 7
+    h: 12
+    oX: 4
+    oY: 10
+  - name: all_19
+    x: 145
+    y: 49
+    w: 12
+    h: 13
+    oX: 7
+    oY: 12
+  - name: all_20
+    x: 195
+    y: 44
+    w: 55
+    h: 18
+    oX: 27
+    oY: 11
+  - name: all_21
+    x: 264
+    y: 38
+    w: 45
+    h: 24
+    oX: 22
+    oY: 15
+  - name: all_22
+    x: 323
+    y: 43
+    w: 35
+    h: 20
+    oX: 16
+    oY: 5
+  - name: all_23
+    x: 373
+    y: 43
+    w: 31
+    h: 15
+    oX: 17
+    oY: 6
+  - name: all_24
+    x: 423
+    y: 40
+    w: 44
+    h: 18
+    oX: 22
+    oY: 7
+  - name: all_25
+    x: 5
+    y: 52
+    w: 5
+    h: 10
+    oX: 3
+    oY: 8
+  - name: all_26
+    x: 23
+    y: 55
+    w: 3
+    h: 7
+    oX: 1
+    oY: 5
+  - name: all_27
+    x: 39
+    y: 58
+    w: 3
+    h: 4
+    oX: 1
+    oY: 2
+  - name: all_28
+    x: 85
+    y: 56
+    w: 6
+    h: 6
+    oX: 3
+    oY: 4
+  - name: all_29
+    x: 100
+    y: 53
+    w: 9
+    h: 9
+    oX: 4
+    oY: 7
+  - name: all_30
+    x: 115
+    y: 51
+    w: 10
+    h: 11
+    oX: 5
+    oY: 9
+  - name: all_31
+    x: 130
+    y: 50
+    w: 11
+    h: 12
+    oX: 6
+    oY: 10
+  - name: all_32
+    x: 56
+    y: 60
+    w: 1
+    h: 2
+    oX: 0
+    oY: 0
+  - name: all_33
+    x: 71
+    y: 56
+    w: 4
+    h: 6
+    oX: 1
+    oY: 4
+  - name: all_34
+    x: 2
+    y: 77
+    w: 13
+    h: 14
+    oX: 7
+    oY: 14
+  - name: all_35
+    x: 18
+    y: 70
+    w: 13
+    h: 22
+    oX: 7
+    oY: 21
+  - name: all_36
+    x: 34
+    y: 70
+    w: 13
+    h: 21
+    oX: 7
+    oY: 21
+  - name: all_37
+    x: 50
+    y: 70
+    w: 13
+    h: 21
+    oX: 7
+    oY: 21
+  - name: all_38
+    x: 65
+    y: 69
+    w: 15
+    h: 22
+    oX: 8
+    oY: 22
+  - name: all_39
+    x: 103
+    y: 85
+    w: 87
+    h: 43
+    oX: 0
+    oY: 0
+  - name: all_40
+    x: 220
+    y: 88
+    w: 179
+    h: 176
+    oX: 0
+    oY: 0
+  - name: all_42
+    x: 15
+    y: 108
+    w: 69
+    h: 37
+    oX: 51
+    oY: 21
+  - name: all_43
+    x: 13
+    y: 152
+    w: 71
+    h: 42
+    oX: 53
+    oY: 22
+  - name: all_44
+    x: 8
+    y: 204
+    w: 78
+    h: 41
+    oX: 57
+    oY: 19
+  clips:
+  - name: seed
+    repeat: 1
+    speed: 0.25
+    frames: 100000000100000011000000010000001200000001000000
+  - name: flower
+    repeat: 0
+    speed: 1
+    frames: 19000000010000001a000000010000001b00000001000000200000000100000021000000010000001c000000010000001d000000010000001e000000010000001f00000001000000130000000100000022000000010000002300000001000000240000000100000025000000010000002600000001000000
+  - name: sunshine
+    repeat: 1
+    speed: 0.5
+    frames: 03000000010000000400000001000000050000000100000006000000010000000d00000001000000
+  - name: birb
+    repeat: 1
+    speed: 0.25
+    frames: 14000000010000001500000001000000160000000100000017000000010000001800000001000000
+  - name: meteor
+    repeat: 1
+    speed: 0.5
+    frames: 29000000010000002a000000010000002b00000001000000
+  width: 512
+  height: 512

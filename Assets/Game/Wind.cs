@@ -23,7 +23,7 @@ public class Wind : MonoBehaviour
 	int _floatDuration = 0;
 
 	int _windLevel;
-    public int WindLevel { get { return _windLevel; } set { _windLevel = value; GameUI.Instance.windLevelText.text = _windLevel.ToString(); } }
+    public int WindLevel { get { return _windLevel; } }
 
 
 	float _floatLevel;
@@ -37,27 +37,19 @@ public class Wind : MonoBehaviour
     }
 
 	public void ResetWind() {
-		WindLevel = _horizontalWindChangeInterval = _verticalWindBoostInterval = _floatDuration = 0;
+		_windLevel = _horizontalWindChangeInterval = _verticalWindBoostInterval = _floatDuration = 0;
 		_floatLevel = 0.0f;
+		GameUI.Instance.SetWindLevel(_windLevel);
 		GameUI.Instance.TurnFloatingTextOff();
 	}
 
 	void CalculateHorizontalInterval() {
 		if (_horizontalWindChangeInterval >= _maxHorizontalInterval * intervalLength) {
 			_horizontalWindChangeInterval = 0;
-			var abs = Mathf.Abs(_windLevel);
-			if (abs < 3) {
-				int dir = Random.Range(0, 3) - 1;
-				WindLevel += dir;
-			} else if (abs < 6) {
-				int add = (int)(Mathf.Sign(_windLevel) * -1);
-				int dir = Random.Range(0, 3) - 1 + add;
-				WindLevel += dir;
-			} else {
-				int add = (int)(Mathf.Sign(_windLevel) * -3);
-				int dir = Random.Range(0, 3) - 1 + add;
-				WindLevel += dir;
-			}// _windLevelText.text = _windLevel.ToString();
+			int dir = Random.Range(0, 3) - 1;
+			_windLevel += dir;
+			_windLevel = Mathf.Clamp(-_windLevel, -3, 3);
+			GameUI.Instance.SetWindLevel(_windLevel);
 		}
 		_horizontalWindChangeInterval++;
 	}

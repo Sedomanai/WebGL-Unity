@@ -1,9 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.ShaderGraph;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.WSA;
 
 namespace Elang
 {
@@ -11,16 +7,22 @@ namespace Elang
 	{
 		public class Flower : MonoBehaviour
         {
+			static bool firstTime = true;
+
             [SerializeField]
             ObjectPool _seedpool;
 			[SerializeField]
-			Camera _camera;
+			GameEvent _gameEvent;
 
 			//Seed _seed;
 			Transform _spawntr;
+			Animator _anim;
+
             void Awake() {
                 _spawntr = GetComponentsInChildren<Transform>()[1];
 				gameObject.SetActive(false);
+				_anim = GetComponent<Animator>();
+				_anim.StopPlayback();
             }
 
 			void OnEnable() {
@@ -29,19 +31,18 @@ namespace Elang
 
 			Vector3 _deltaCam;
 			IEnumerator GrowFlower() {
-				_deltaCam = _spawntr.transform.position - _camera.transform.position;
+				_deltaCam = _spawntr.transform.position - Camera.main.transform.position;
 				_deltaCam.z = 0.0f;
-				// animate or something here.
 				yield return StartCoroutine(Lerp());
-				//GameInput.Instance.Menu.Enable();
-				Spawn();
+				SoundMgr.Instance.PlaySFX("grow");
+				_anim.Play("flower");
 			}
 
 			IEnumerator Lerp() {
 				int times = 300;
 				float rate = 1.0f / times;
 				while (times > 0) {
-					_camera.transform.position += (_deltaCam * rate);
+					Camera.main.transform.position += (_deltaCam * rate);
 					yield return null;
 					times--;
 				}
@@ -52,6 +53,10 @@ namespace Elang
 				seed.transform.position = _spawntr.transform.position;
 				seed.tag = "Player";
 				seed.SetActive(true);
+				if (!firstTime) {
+					GameInput.Instance.Menu.Enable();
+					_gameEvent.OnMenu.Invoke();
+				} firstTime = false;
 			}
         }
     }

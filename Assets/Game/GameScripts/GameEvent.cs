@@ -7,7 +7,8 @@ namespace Elang.LD53
 {
 	public class GameEvent : MonoBehaviour
 	{
-		public UnityEvent OnStart, OnFinished;
+		public UnityEvent OnStart, OnFinished, OnMenu;
+		public UnityEvent Fly, Strike;
 	}
 
 }

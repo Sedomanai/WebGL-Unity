@@ -9,20 +9,10 @@ namespace Elang.LD53
 		[SerializeField]
 		float _collectDistance;
 
-		GameObject _seed;
-
-		public void SetSeed(Seed seed) {
-			_seed = seed.gameObject;
-		}
 		void LateUpdate() {
-			//if (!_seed) {
-			//	_seed = GameObject.FindGameObjectWithTag("Player");
-			//} 
-			if (_seed) { 
-				var distance = Vector2.Distance(_seed.transform.position, transform.position);
-				if (distance > _collectDistance) {
-					gameObject.SetActive(false);
-				}
+			var distance = Vector2.Distance(Camera.main.transform.position, transform.position);
+			if (distance > _collectDistance) {
+				gameObject.SetActive(false);
 			}
 		}
 	}

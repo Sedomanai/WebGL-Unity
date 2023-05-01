@@ -18,6 +18,7 @@ namespace Elang
 				var flower = _flowerPool.Get();
 				flower.transform.position = transform.position;
 				flower.SetActive(true);
+				SoundMgr.Instance.PlayBGM("bgm");
 			}
 		}
 

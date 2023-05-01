@@ -8,51 +8,71 @@ namespace Elang.LD53
 	public class RandomSpawn : MonoBehaviour
 	{
 		[SerializeField]
-		InputActionAsset _controls;
+		GameEvent _gameEvent;
 
-		float _spawnInterval = 0;
+		float _spawnTick = 0;
 		ObjectPool _pool;
-		Seed _seed;
+		protected Seed _seed;
+		float _groundAltitude;
+
+		protected bool _randomizeAngle = false;
+		protected bool _setAngle = false;
+		protected bool _playAnytime = false;
+		protected float _spawnRate;
+		protected float _spawnPrevent = 4.0f;
+		protected float _spawnAltMultiplier = 1.0f;
+		protected Vector2Int _spawnCount;
+		protected float _spawnSheathe = 2.0f;
 
 		void Awake() {
 			_pool = GetComponent<ObjectPool>();
+			_gameEvent.OnStart.AddListener(FindSeed);
 		}
 
-		public void FindSeed() {
-			if (!_seed)
+		void OnDestroy() {
+			_gameEvent.OnStart.RemoveListener(FindSeed);
+		}
+
+		public virtual void FindSeed() {
+			if (!_seed) {
 				_seed = GameObject.FindGameObjectWithTag("Player").GetComponent<Seed>();
+				var circ = GameObject.FindGameObjectWithTag("Respawn").GetComponent<CircleCollider2D>();
+				_groundAltitude = circ.radius* circ.transform.lossyScale.y;
+			}
 		}
 
-		void FixedUpdate() {
-			if (!GameInput.Instance.Playing.enabled || !_seed)
+		protected void FixedUpdate() {
+			if (!((_playAnytime || GameInput.Instance.Playing.enabled)))
 				return;
 
-			Vector2 force = _seed.Force;
+			Vector2 force = _seed ? _seed.Force : Vector2.one * 0.01f;
 
-			if (_spawnInterval >= GameData.Instance.SunshineSpawnRate) {
-				var magnitude = force.magnitude;
-				var angle = Mathf.Atan2(-force.y, force.x);
-
-				var count = Random.Range(GameData.Instance.SunshineCount.x, GameData.Instance.SunshineCount.y + 1);
+			if (_spawnTick >= _spawnRate) {
+				var angle = GameMath.Vector2ToAngle(force);
+				var count = Random.Range(_spawnCount.x, _spawnCount.y + 1);
 				Random.Range(0, count);
 
 				while (count-- > 0) {
-					var obj = _pool.Get();
-					var wide = Mathf.PI * 1/4;
-					var currangle = Random.Range(-wide, wide) + angle;
-					float size = 2.0f * (Camera.main.orthographicSize + 1);
-					Vector3 spawnPos = new Vector3(Mathf.Cos(currangle), -Mathf.Sin(currangle), 0) * size  + Camera.main.transform.position;
-					if (spawnPos.y > 3.0f) {
-						spawnPos.z = 0.0f;
-						obj.GetComponent<GarbageCollect>().SetSeed(_seed);
+					var currangle = GameMath.RandomizeAngle(angle, 0.25f);
+
+					float length = 2.0f * (Camera.main.orthographicSize + _spawnSheathe);
+					var campos = Camera.main.transform.position;
+					Vector2 spawnPos = GameMath.AngleToVector2(currangle, length) + new Vector2(campos.x, campos.y);
+
+					if (spawnPos.magnitude > _spawnPrevent + _groundAltitude) {
+						var obj = _pool.Get();
 						obj.transform.position = spawnPos;
-						obj.SetActive(true); //debug
-					}
-						
+						obj.SetActive(true);
+						if (_randomizeAngle)
+							obj.transform.eulerAngles = new Vector3(0, 0, Random.Range(-180.0f, 180.0f));
+						if (_setAngle)
+							obj.transform.eulerAngles = new Vector3(0, 0, -GameMath.Vector2ToAngle(spawnPos) * Mathf.Rad2Deg);
+					}	
 				}
-				_spawnInterval -= GameData.Instance.SunshineSpawnRate;
+				_spawnTick -= _spawnRate;
 			}
-			_spawnInterval += Mathf.Abs(force.magnitude);
+
+			_spawnTick += Mathf.Abs(force.magnitude) * _spawnAltMultiplier;
 		}
 	}
 }
