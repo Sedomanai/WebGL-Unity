@@ -39,6 +39,8 @@ namespace Elang.LD53
 		int sunshine;
 		public int Sunshine { get { return sunshine; } }
 
+		public bool PreventBird = false;
+
 		public struct Stat<T> {
 			int level;
 			List<T> data;

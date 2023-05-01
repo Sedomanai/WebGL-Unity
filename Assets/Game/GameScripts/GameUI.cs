@@ -32,6 +32,23 @@ namespace Elang.LD53
 		[SerializeField]
 		TextMeshProUGUI _sunshineMenu;
 
+		[SerializeField]
+		Image _birdButtonUI;
+		[SerializeField]
+		Sprite _birdO;
+		[SerializeField]
+		Sprite _birdX;
+
+		public void ToggleBird() {
+			if (_birdButtonUI.sprite == _birdX) {
+				_birdButtonUI.sprite = _birdO;
+				GameData.Instance.PreventBird = false;
+			} else {
+				_birdButtonUI.sprite = _birdX;
+				GameData.Instance.PreventBird = true; 
+			}
+		}
+
 		public void SetDistance(float value) {
 			_distance.text = $"{Math.Round(value, 1)}";
 		}

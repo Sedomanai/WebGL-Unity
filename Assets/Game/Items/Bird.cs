@@ -9,9 +9,18 @@ namespace Elang.LD53
 		[SerializeField]
 		GameEvent _gameEvent;
 
+		Animator _anim;
+		void OnEnable() {
+			if (!_anim) { }
+				_anim = GetComponentInChildren<Animator>();
+		}
+
 		public void OnHit() {
-			if (GameInput.Instance.Playing.enabled)
+			if (GameInput.Instance.Playing.enabled && !GameData.Instance.PreventBird) {
+				_anim.Play("birbfly");
+				SoundMgr.Instance.PlaySFX("fly");
 				_gameEvent.Fly.Invoke();
+			}
 		}
 
 		void FixedUpdate() {

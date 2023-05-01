@@ -1544,6 +1544,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: all_70
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 469
+        width: 26
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45aa281ba286e3540800000000000000
+      internalID: 4989539969749133908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_71
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 469
+        width: 26
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4a4ce29cbcb9f60800000000000000
+      internalID: 8042245624533656797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1613,12 +1655,14 @@ TextureImporter:
       all_0: 7160429211405778527
       all_62: 8711120730607595667
       all_21: -730131288623254124
+      all_70: 4989539969749133908
       all_20: 179133888372635544
       all_36: 831530178016107049
       all_26: 673173779525253219
       all_46: 19052218466296406
       all_5: -2249631188897383861
       all_31: 2139653220974686133
+      all_71: 8042245624533656797
       all_33: -5683241904361576339
       all_11: 4178722539803452060
       all_12: 9199022204814979299
