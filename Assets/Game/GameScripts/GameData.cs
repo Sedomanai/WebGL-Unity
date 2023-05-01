@@ -96,7 +96,7 @@ namespace Elang.LD53
 			_altitude = false;
 
 			var name = (_nameField.text == null || _nameField.text == "") ? "Nan" : _nameField.text;
-			if ((MaxAltitude < maxAltitude && maxAltitude > 10000) || (MaxVelocity < maxVelocity && maxVelocity > 100.0f))
+			if ((MaxAltitude == maxAltitude && maxAltitude > 35000) || (MaxVelocity == maxVelocity && maxVelocity > 50.0f))
 				_network.SendRank(new Rank(name, MaxVelocity, MaxAltitude), this);
 			_myRank[0].SetFields("Current", maxAltitude.ToString());
 			_myRank[1].SetFields("Highest", MaxAltitude.ToString());
