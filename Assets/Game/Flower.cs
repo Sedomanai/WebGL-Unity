@@ -39,7 +39,7 @@ namespace Elang
 			}
 
 			IEnumerator Lerp() {
-				int times = 300;
+				int times = 20;
 				float rate = 1.0f / times;
 				while (times > 0) {
 					Camera.main.transform.position += (_deltaCam * rate);

@@ -92,6 +92,7 @@ namespace Elang
 				Startup();
 				if (_boostDuration < 2 && _boost.action.triggered) {
 					if (_boosts.Use()) {
+						SoundMgr.Instance.PlaySFX("boost");
 						_boostDuration = (int)GameData.Instance.BoostDuration.Current;
 						_anim[1].gameObject.SetActive(true);
 						_anim[1].Play("boost");

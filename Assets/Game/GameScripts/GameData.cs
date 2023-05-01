@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -26,6 +27,9 @@ namespace Elang.LD53
 		[SerializeField]
 		RankObject[] _myRank;
 
+		[SerializeField]
+		TextMeshProUGUI _nameField;
+
 #if UNITY_EDITOR
 		void Start() {
             GameInput.Instance.DebugC.Enable();
@@ -34,8 +38,6 @@ namespace Elang.LD53
 
 		int sunshine;
 		public int Sunshine { get { return sunshine; } }
-
-		public string PlayerName;
 
 		public struct Stat<T> {
 			int level;
@@ -86,14 +88,16 @@ namespace Elang.LD53
 		float MaxAltitude = 0.0f, MaxVelocity = 0.0f;
 		float PrevAltitude = 0.0f, PrevVelocity = 0.0f;
 
-
 		bool _altitude = false;
 		public void OnGameEnd(float maxAltitude, float maxVelocity) {
 			PrevAltitude = maxAltitude; PrevVelocity = maxVelocity;
 			MaxAltitude = Mathf.Max(maxAltitude, MaxAltitude);	
 			MaxVelocity	= Mathf.Max(maxVelocity, MaxVelocity);
 			_altitude = false;
-			_network.SendRank(new Rank(PlayerName, MaxVelocity, MaxAltitude), this);
+
+			var name = (_nameField.text == null || _nameField.text == "") ? "Nan" : _nameField.text;
+			if ((MaxAltitude < maxAltitude && maxAltitude > 10000) || (MaxVelocity < maxVelocity && maxVelocity > 10.0f))
+				_network.SendRank(new Rank(name, MaxVelocity, MaxAltitude), this);
 			_myRank[0].SetFields("Current", maxAltitude.ToString());
 			_myRank[1].SetFields("Highest", MaxAltitude.ToString());
 		}
